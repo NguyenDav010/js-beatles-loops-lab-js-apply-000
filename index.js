@@ -11,7 +11,7 @@ function johnLennonFacts() {
   var array = [];
   var i = 0;
   while (array.length < facts.length) {
-    results.push(facts[i] + "!!!");
+    array.push(facts[i] + "!!!");
     i++;
   }
   return array;
